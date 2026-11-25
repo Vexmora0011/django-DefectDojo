@@ -1,7 +1,7 @@
 # requirements.txt for DefectDojo using Python 3.x
 bleach==6.4.0
 bleach[css]
-celery[sqs]==5.6.3
+celery[sqs]==5.7.0
 # pycurl and boto3 are included via celery[sqs] for Celery Broker AWS (SQS) support
 pycurl==7.49.0  # via celery[sqs]
 certifi==2026.10.23  # requests' CA bundle; 2026.10.19 drops emSign ECC Root CA - G3 (eMudhra intermediate key compromise)
